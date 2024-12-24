@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the Future of Driving with BMW - Explore cutting-edge technology, unparalleled luxury, and dynamic performance.">
+    <title>Futuristic BMW</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollreveal/4.0.9/scrollreveal.min.js" defer></script>
+    <script src="scripts.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-white font-sans">
+
+    <!-- Hero Section -->
+    <section class="relative h-screen overflow-hidden">
+        <video autoplay muted loop class="absolute inset-0 w-full h-full object-cover">
+            <source src="bmw.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col justify-center items-center text-center space-y-6">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white animate__animated animate__fadeInUp">The Future of Driving</h1>
+            <p class="text-lg md:text-xl font-light">Experience unparalleled luxury and cutting-edge technology.</p>
+            <a href="#features" class="mt-8 px-6 py-3 bg-blue-600 rounded-lg text-lg hover:bg-blue-500 transition-all duration-300">Explore Features</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-16 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-semibold text-center mb-12">Cutting-Edge Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl transition-all duration-300 hover:scale-105">
+                    <img src="m1.jpg" alt="AI Tech" class="w-full h-40 object-cover rounded-md">
+                    <h3 class="mt-4 text-2xl font-semibold">AI-Powered Driving</h3>
+                    <p class="mt-2 text-sm">Experience safety and precision with advanced AI integration.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl transition-all duration-300 hover:scale-105">
+                    <img src="m2.jpg" alt="Performance" class="w-full h-40 object-cover rounded-md">
+                    <h3 class="mt-4 text-2xl font-semibold">Unmatched Performance</h3>
+                    <p class="mt-2 text-sm">Accelerate into the future with unparalleled engine dynamics.</p>
+                </div>
+                <div class="p-6 bg-gray-700 rounded-lg shadow-xl transition-all duration-300 hover:scale-105">
+                    <img src="m3.jpg" alt="Luxury" class="w-full h-40 object-cover rounded-md">
+                    <h3 class="mt-4 text-2xl font-semibold">Luxury Redefined</h3>
+                    <p class="mt-2 text-sm">Immerse yourself in the ultimate comfort and design.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-semibold text-center mb-12">Gallery</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <img src="m4.jpg" alt="Car 1" class="rounded-lg hover:scale-105 transition-all duration-300">
+                <img src="m5.jpg" alt="Car 2" class="rounded-lg hover:scale-105 transition-all duration-300">
+                <img src="m6.jpg" alt="Car 3" class="rounded-lg hover:scale-105 transition-all duration-300">
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-16 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-semibold text-center mb-12">What Customers Say</h2>
+            <div class="space-y-8">
+                <blockquote class="text-center">
+                    <p class="text-lg font-medium italic">"Driving this car feels like stepping into the future. BMW has truly outdone themselves."</p>
+                    <footer class="mt-4 text-sm">- Alex J.</footer>
+                </blockquote>
+                <blockquote class="text-center">
+                    <p class="text-lg font-medium italic">"The performance and luxury are unmatched. I can't imagine driving anything else."</p>
+                    <footer class="mt-4 text-sm">- Jamie K.</footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-700">
+        <div class="max-w-7xl mx-auto px-6">
+            <h2 class="text-4xl font-semibold text-center mb-8">Contact Us</h2>
+            <form class="max-w-lg mx-auto space-y-6">
+                <div>
+                    <label for="name" class="block text-sm font-medium">Name</label>
+                    <input type="text" id="name" name="name" class="w-full mt-2 px-4 py-2 bg-gray-800 text-white rounded-lg" required>
+                </div>
+                <div>
+                    <label for="email" class="block text-sm font-medium">Email</label>
+                    <input type="email" id="email" name="email" class="w-full mt-2 px-4 py-2 bg-gray-800 text-white rounded-lg" required>
+                </div>
+                <div>
+                    <label for="message" class="block text-sm font-medium">Message</label>
+                    <textarea id="message" name="message" class="w-full mt-2 px-4 py-2 bg-gray-800 text-white rounded-lg" rows="4"></textarea>
+                </div>
+                <button type="submit" class="w-full px-6 py-3 bg-blue-600 rounded-lg hover:bg-blue-500 transition-all duration-300">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-gray-800 text-center text-sm">
+        <p>&copy; 2024 Futuristic BMW. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>

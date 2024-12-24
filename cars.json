@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "url": "https://source.unsplash.com/400x300/?bmw,car1",
+        "alt": "BMW Car 1"
+    },
+    {
+        "id": 2,
+        "url": "https://source.unsplash.com/400x300/?bmw,car2",
+        "alt": "BMW Car 2"
+    },
+    {
+        "id": 3,
+        "url": "https://source.unsplash.com/400x300/?bmw,car3",
+        "alt": "BMW Car 3"
+    },
+    {
+        "id": 4,
+        "url": "https://source.unsplash.com/400x300/?bmw,car4",
+        "alt": "BMW Car 4"
+    },
+    {
+        "id": 5,
+        "url": "https://source.unsplash.com/400x300/?bmw,car5",
+        "alt": "BMW Car 5"
+    },
+    {
+        "id": 6,
+        "url": "https://source.unsplash.com/400x300/?bmw,car6",
+        "alt": "BMW Car 6"
+    }
+]
